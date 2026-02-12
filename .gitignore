@@ -1,0 +1,36 @@
+# --- 1. The Virtual Environment (CRITICAL) ---
+# Never upload this. It contains all the libraries you installed.
+.venv/
+venv/
+env/
+ENV/
+
+# --- 2. Python Compiled Files ---
+# These are the weird folders Python creates automatically. You don't need them.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- 3. Security & Secrets (MOST IMPORTANT) ---
+# Prevent uploading files that might contain your Safaricom Keys or Ngrok Tokens.
+.env
+.env.local
+secrets.py
+config.py
+
+# --- 4. OS & IDE Files (Junk) ---
+# Windows thumbnail database
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# VS Code settings (optional, but good practice to ignore)
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# --- 5. Logs ---
+*.log
+daraja.env
