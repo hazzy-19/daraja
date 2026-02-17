@@ -1,4 +1,12 @@
+# Core dependencies
+requests
+psycopg2-binary
+python-dotenv
+
+pydantic
+pydantic-settings
+
+loguru
+
 fastapi
 uvicorn
-requests
-pyngrok
